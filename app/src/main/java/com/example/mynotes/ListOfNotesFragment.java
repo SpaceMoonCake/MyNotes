@@ -41,7 +41,6 @@ public class ListOfNotesFragment extends Fragment {
             listOfNotes = (Note[]) getArguments().getParcelableArray(ARG_LIST_OF_NOTES);
         }
     }
-
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -91,9 +90,16 @@ public class ListOfNotesFragment extends Fragment {
 
 
     private void showNotePort(Note note) {
-        Intent intent = new Intent();
-        intent.setClass(getActivity(), BodyNoteActivity.class);
-        intent.putExtra(BodyOfNoteFragment.ARG_NOTE, note);
-        startActivity(intent);
+        BodyOfNoteFragment fragment = BodyOfNoteFragment.newInstance(note);
+        requireActivity().getSupportFragmentManager()
+                .beginTransaction()
+                .addToBackStack("")
+                .add(R.id.container_for_fragment, fragment)
+                .commit();
+
+//        Intent intent = new Intent();
+//        intent.setClass(getActivity(), BodyNoteActivity.class);
+//        intent.putExtra(BodyOfNoteFragment.ARG_NOTE, note);
+//        startActivity(intent);
     }
 }
