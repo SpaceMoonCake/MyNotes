@@ -3,11 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/AndroidGB/MyNotes/app/src/main/res/layout-land/activity_main.xml" value="0.1" />
+        <entry key="..\:/AndroidGB/MyNotes/app/src/main/res/layout-land/activity_main.xml" value="0.16" />
         <entry key="..\:/AndroidGB/MyNotes/app/src/main/res/layout-land/activity_main_land.xml" value="0.17395833333333333" />
         <entry key="..\:/AndroidGB/MyNotes/app/src/main/res/layout-port/activity_main.xml" value="0.275" />
+        <entry key="..\:/AndroidGB/MyNotes/app/src/main/res/layout/activity_body_note.xml" value="0.21574074074074073" />
+        <entry key="..\:/AndroidGB/MyNotes/app/src/main/res/layout/activity_main.xml" value="0.275" />
+        <entry key="..\:/AndroidGB/MyNotes/app/src/main/res/layout/fragment_blank.xml" value="0.14375" />
+        <entry key="..\:/AndroidGB/MyNotes/app/src/main/res/layout/fragment_body_of_note.xml" value="0.21574074074074073" />
+        <entry key="..\:/AndroidGB/MyNotes/app/src/main/res/layout/fragment_info.xml" value="0.22407407407407406" />
         <entry key="..\:/AndroidGB/MyNotes/app/src/main/res/layout/fragment_list_of_notes.xml" value="0.14375" />
+        <entry key="..\:/AndroidGB/MyNotes/app/src/main/res/layout/fragment_settings.xml" value="0.264" />
         <entry key="..\:/AndroidGB/MyNotes/app/src/main/res/layout/main_activity.xml" value="0.275" />
+        <entry key="..\:/AndroidGB/MyNotes/app/src/main/res/layout/menu_down.xml" value="0.14375" />
+        <entry key="..\:/AndroidGB/MyNotes/app/src/main/res/menu/menu_action_bar_up.xml" value="0.22407407407407406" />
+        <entry key="..\:/AndroidGB/MyNotes/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.2324074074074074" />
+        <entry key="..\:/AndroidGB/MyNotes/app/src/main/res/menu/munu_down.xml" value="0.14375" />
       </map>
     </option>
   </component>
